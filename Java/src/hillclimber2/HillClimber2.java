@@ -12,8 +12,7 @@ import java.util.Random;
  */
 public class HillClimber2
 {
-    //public static int MAX = 0;
-    //private static double DESIRED_FUNCTION_VALUE = 0;
+   
     /**
      * @param args the command line arguments
      */

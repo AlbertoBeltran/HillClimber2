@@ -121,44 +121,32 @@ public class HillClimber2
                     fvc = fvcNew;
 
                 }
-                System.out.println("The neighboring random x is " + xOfNeighboringRandomVector);
-                System.out.println("The neighboring random y is " + yOfNeighboringRandomVector);
-                System.out.println("The neighboring random z is " + zOfNeighboringRandomVector);
-                System.out.println("The neighboring function value is " + fvcNew);
-                System.out.println("The new neighboring min function value is " + fvc);
+                //System.out.println("The neighboring random x is " + xOfNeighboringRandomVector);
+                //System.out.println("The neighboring random y is " + yOfNeighboringRandomVector);
+                //System.out.println("The neighboring random z is " + zOfNeighboringRandomVector);
+                //System.out.println("The neighboring function value is " + fvcNew);
+                System.out.println("The best of the N neighbors and the old vc: " + fvc);
 
                 System.out.println();
 
             } // careful to close the loop
-            System.out.println("The min neighboring function value is " + fvcNew);
+
+
+            //System.out.println("The min neighboring function value is " + fvcNew);
 
             // at this point, v_c is the best of the pre-existing v_c
 
-
-
             t++;
 
-            System.out.format("#%d Vector Function Value = %.2f%n%n", t, fvc);
-            System.out.println("vNew is: " + vNew);
-            System.out.println("Desired Function Value is: " + DESIRED_FUNCTION_VALUE);
-            System.out.println("The New Min Function Value is: " + fvcNew);
+            //System.out.format("#%d Vector Function Value = %.2f%n%n", t, fvc);
+            //System.out.println("vNew is: " + vNew);
+            //System.out.println("Desired Function Value is: " + DESIRED_FUNCTION_VALUE);
+           // System.out.println("The New Min Function Value is: " + fvcNew);
 
-            System.out.println("t is: " + t);
-            System.out.println();
-
-
+            //System.out.println("t is: " + t);
+            //System.out.println();
 
 
-
-            // evaluate f(v_1), f(f_2), . . . , f(v_n);
-            // select the vector with the smallest value of f();
-            // call it vNew;
-            // if f(vNew)< f(v_c)
-            // then begin
-            // v_c = vNew;
-
-            //local = false;
-            //vNew = min;
         }
     }
 }
